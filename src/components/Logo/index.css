@@ -1,0 +1,6 @@
+.logo__img {
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(87deg)
+    brightness(108%) contrast(101%);
+  width: 140px;
+  height: 140px;
+}
