@@ -1,6 +1,22 @@
 .logo__img {
-  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(87deg)
-    brightness(108%) contrast(101%);
-  width: 140px;
-  height: 140px;
+  filter: invert(50%) sepia(12%) saturate(0%) hue-rotate(274deg) brightness(98%)
+    contrast(96%);
+  width: 100px;
+  height: 100px;
+}
+
+.logo__img {
+  transform-origin: center;
+  animation: scale;
+  animation-duration: 1500ms;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes scale {
+  to {
+    transform: scale(1.2);
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(87deg)
+      brightness(108%) contrast(101%);
+  }
 }

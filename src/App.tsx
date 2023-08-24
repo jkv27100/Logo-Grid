@@ -9,8 +9,8 @@ function App() {
       <AnimatedBg />
       <h1>Awesome Logo Animation 💨</h1>
       <div className="logo__container">
-        {logoList.map(({ src }) => (
-          <Logo logo={src} />
+        {logoList.map(({ src, delay }) => (
+          <Logo logo={src} delay={delay} />
         ))}
       </div>
     </>
